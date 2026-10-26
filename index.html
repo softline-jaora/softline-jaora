@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SOFTLINE COMPUTER CENTER JAORA - सरकारी और प्राइवेट नौकरी, भर्ती, एडमिट कार्ड और रिजल्ट अपडेट।">
+  <title>SOFTLINE COMPUTER CENTER JAORA | Job Updates</title>
+  <style>
+    :root {
+      --navy: #10264a;
+      --blue: #1d4ed8;
+      --sky: #eaf2ff;
+      --ink: #172033;
+      --muted: #64748b;
+      --line: #e2e8f0;
+      --white: #fff;
+      --green: #087443;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, "Noto Sans Devanagari", sans-serif; color: var(--ink); background: #f6f8fc; line-height: 1.6; }
+    a { color: inherit; }
+    .topbar { background: #0b1830; color: white; text-align: center; padding: 8px 14px; font-size: .9rem; }
+    header { background: var(--navy); color: white; }
+    .wrap { width: min(1100px, 92%); margin: auto; }
+    .brand-row { display: flex; align-items: center; gap: 14px; padding: 22px 0; }
+    .logo { width: 58px; height: 58px; flex: 0 0 58px; border-radius: 15px; display: grid; place-items: center; background: white; color: var(--navy); font-weight: 900; font-size: 1.1rem; }
+    h1 { font-size: clamp(1.25rem, 3vw, 2rem); line-height: 1.2; margin: 0; }
+    .tagline { margin: 7px 0 0; color: #dbeafe; }
+    nav { background: #173866; }
+    nav .wrap { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 0; }
+    nav a { text-decoration: none; color: white; padding: 8px 12px; border-radius: 8px; font-size: .95rem; }
+    nav a:hover, nav a:focus { background: #2b4f83; }
+    .hero { background: linear-gradient(130deg, #10264a, #2563eb); color: white; padding: 42px 0; }
+    .hero h2 { font-size: clamp(1.7rem, 4vw, 2.7rem); line-height: 1.2; margin: 0 0 12px; }
+    .hero p { max-width: 700px; color: #eaf2ff; margin: 0 0 22px; }
+    .btn { display: inline-block; text-decoration: none; border: 0; cursor: pointer; border-radius: 9px; padding: 11px 16px; font-weight: 700; background: white; color: var(--navy); }
+    .btn.blue { background: var(--blue); color: white; }
+    .btn.green { background: var(--green); color: white; }
+    .section { padding: 32px 0; }
+    .section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+    h2, h3 { margin-top: 0; }
+    .section-head h2 { margin-bottom: 0; font-size: 1.55rem; }
+    .sub { color: var(--muted); margin: 5px 0 0; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+    .filters button { border: 1px solid var(--line); background: white; color: var(--ink); border-radius: 99px; padding: 8px 14px; cursor: pointer; }
+    .filters button.active { background: var(--navy); color: white; border-color: var(--navy); }
+    .job-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .job-card, .info-card { background: white; border: 1px solid var(--line); border-radius: 15px; padding: 18px; box-shadow: 0 5px 18px #10264a0a; }
+    .job-card h3 { font-size: 1.12rem; margin: 10px 0 6px; }
+    .job-card p { margin: 6px 0; color: #475569; font-size: .95rem; }
+    .pill { display: inline-block; padding: 4px 9px; border-radius: 99px; background: var(--sky); color: #1e40af; font-size: .78rem; font-weight: 700; }
+    .pill.sample { background: #fff4d6; color: #8a4b08; }
+    .job-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .job-actions a { text-decoration: none; font-size: .9rem; }
+    .empty { background: white; border: 1px dashed #cbd5e1; padding: 25px; border-radius: 12px; color: var(--muted); text-align: center; grid-column: 1/-1; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .info-card p { color: #475569; margin-bottom: 0; }
+    .contact-list { padding-left: 20px; margin-bottom: 0; }
+    .notice { border-left: 4px solid #f59e0b; background: #fffbeb; color: #78350f; padding: 14px 16px; border-radius: 8px; margin-top: 18px; font-size: .92rem; }
+    footer { background: #0b1830; color: #dbeafe; padding: 25px 0; margin-top: 12px; }
+    footer p { margin: 5px 0; }
+    .footer-small { color: #a8bad4; font-size: .85rem; }
+    @media (max-width: 800px) { .job-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 560px) {
+      .brand-row { align-items: flex-start; }
+      .logo { width: 48px; height: 48px; flex-basis: 48px; }
+      nav .wrap { gap: 2px; }
+      nav a { padding: 7px 9px; font-size: .88rem; }
+      .hero { padding: 32px 0; }
+      .job-grid, .two-col { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">सरकारी नौकरी • प्राइवेट नौकरी • भर्ती अपडेट • एडमिट कार्ड • रिजल्ट</div>
+
+  <header>
+    <div class="wrap brand-row">
+      <div class="logo" aria-hidden="true">SC</div>
+      <div>
+        <h1>SOFTLINE COMPUTER CENTER</h1>
+        <p class="tagline">JAORA, DISTRICT RATLAM (M.P.)</p>
+      </div>
+    </div>
+  </header>
+
+  <nav aria-label="मुख्य मेनू">
+    <div class="wrap">
+      <a href="#home">होम</a>
+      <a href="#jobs">लेटेस्ट भर्ती</a>
+      <a href="#categories">भर्ती की श्रेणियाँ</a>
+      <a href="#help">ऑनलाइन फॉर्म सहायता</a>
+      <a href="#contact">संपर्क</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <h2>Latest Job Updates 2026</h2>
+        <p>सरकारी और प्राइवेट नौकरियों की जानकारी एक जगह पाएँ। योग्यता, अंतिम तिथि और आधिकारिक आवेदन लिंक जाँचकर ही आवेदन करें।</p>
+        <a class="btn" href="#jobs">भर्ती देखें ↓</a>
+        <a class="btn" href="#contact" style="margin-left:8px">संपर्क करें</a>
+      </div>
+    </section>
+
+    <section class="section" id="jobs">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>📢 Latest Recruitment</h2>
+            <p class="sub">नई भर्ती की पोस्ट यहाँ जोड़ें।</p>
+          </div>
+        </div>
+
+        <div class="filters" aria-label="भर्ती फ़िल्टर">
+          <button class="active" data-filter="all">सभी भर्ती</button>
+          <button data-filter="government">सरकारी नौकरी</button>
+          <button data-filter="private">प्राइवेट नौकरी</button>
+          <button data-filter="admit">एडमिट कार्ड / रिजल्ट</button>
+        </div>
+
+        <div class="job-grid" id="jobGrid">
+          <!-- नई भर्ती जोड़ने के लिए नीचे दिए गए निर्देश वाली README.txt देखें। -->
+          <article class="job-card" data-category="government">
+            <span class="pill sample">डेमो पोस्ट — बदलें</span>
+            <h3>सरकारी भर्ती का नाम यहाँ लिखें</h3>
+            <p><strong>विभाग:</strong> विभाग का नाम</p>
+            <p><strong>पद:</strong> पदों की संख्या</p>
+            <p><strong>योग्यता:</strong> आधिकारिक नोटिफिकेशन देखें</p>
+            <p><strong>अंतिम तिथि:</strong> DD-MM-YYYY</p>
+            <div class="job-actions">
+              <a class="btn blue" href="https://www.ncs.gov.in/" target="_blank" rel="noopener">आधिकारिक वेबसाइट</a>
+            </div>
+          </article>
+
+          <article class="job-card" data-category="private">
+            <span class="pill sample">डेमो पोस्ट — बदलें</span>
+            <h3>प्राइवेट नौकरी का नाम यहाँ लिखें</h3>
+            <p><strong>कंपनी:</strong> कंपनी का नाम</p>
+            <p><strong>वेतन:</strong> नोटिफिकेशन के अनुसार</p>
+            <p><strong>योग्यता:</strong> पद के अनुसार</p>
+            <p><strong>अंतिम तिथि:</strong> DD-MM-YYYY</p>
+            <div class="job-actions">
+              <a class="btn blue" href="#contact">जानकारी के लिए संपर्क</a>
+            </div>
+          </article>
+
+          <article class="job-card" data-category="admit">
+            <span class="pill sample">डेमो पोस्ट — बदलें</span>
+            <h3>एडमिट कार्ड / रिजल्ट अपडेट</h3>
+            <p><strong>परीक्षा:</strong> परीक्षा का नाम</p>
+            <p><strong>अपडेट:</strong> एडमिट कार्ड या रिजल्ट</p>
+            <p><strong>तारीख:</strong> DD-MM-YYYY</p>
+            <p>सिर्फ आधिकारिक लिंक प्रकाशित करें।</p>
+            <div class="job-actions">
+              <a class="btn blue" href="https://www.ncs.gov.in/" target="_blank" rel="noopener">वेबसाइट देखें</a>
+            </div>
+          </article>
+        </div>
+        <div class="notice"><strong>ज़रूरी:</strong> ऊपर की तीन पोस्ट केवल डेमो हैं, असली भर्ती नहीं। प्रकाशित करने से पहले इन्हें हटाएँ या सत्यापित जानकारी से बदलें।</div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>भर्ती की श्रेणियाँ</h2>
+            <p class="sub">अपनी ज़रूरत के अनुसार जानकारी देखें।</p>
+          </div>
+        </div>
+        <div class="two-col">
+          <div class="info-card">
+            <h3>🏛️ सरकारी नौकरियाँ</h3>
+            <p>केंद्र सरकार, मध्य प्रदेश सरकार, बैंक, रेलवे, शिक्षा और अन्य विभागों की सत्यापित भर्ती जानकारी पोस्ट करें।</p>
+          </div>
+          <div class="info-card">
+            <h3>💼 प्राइवेट नौकरियाँ</h3>
+            <p>कंपनी का नाम, काम का स्थान, वेतन, योग्यता और आवेदन का असली लिंक स्पष्ट रूप से दें।</p>
+          </div>
+          <div class="info-card">
+            <h3>🎫 एडमिट कार्ड</h3>
+            <p>परीक्षा का नाम, डाउनलोड की तारीख और संबंधित आधिकारिक वेबसाइट दें।</p>
+          </div>
+          <div class="info-card">
+            <h3>📋 रिजल्ट और मेरिट लिस्ट</h3>
+            <p>रिजल्ट की तारीख और आधिकारिक परिणाम पेज का लिंक दें।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="help">
+      <div class="wrap">
+        <div class="info-card">
+          <h2>🖥️ ऑनलाइन फॉर्म भरने में सहायता</h2>
+          <p>SOFTLINE COMPUTER CENTER JAORA में ऑनलाइन आवेदन प्रक्रिया, दस्तावेज़ अपलोड और प्रिंटिंग जैसी सेवाओं की उपलब्धता के बारे में पूछें। आवेदन की पात्रता और अंतिम निर्णय संबंधित भर्ती विभाग का होता है।</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>📍 Contact Us</h2>
+            <p class="sub">अपनी सही दुकान का पता और संपर्क जानकारी यहाँ भरें।</p>
+          </div>
+        </div>
+        <div class="two-col">
+          <div class="info-card">
+            <h3>SOFTLINE COMPUTER CENTER</h3>
+            <ul class="contact-list">
+              <li><strong>शहर:</strong> Jaora, District Ratlam, Madhya Pradesh</li>
+              <li><strong>पता:</strong> अपना पूरा और सही पता यहाँ लिखें</li>
+              <li><strong>फोन / WhatsApp:</strong> अपना संपर्क नंबर यहाँ लिखें</li>
+              <li><strong>समय:</strong> अपने सेंटर का समय यहाँ लिखें</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>भर्ती की जानकारी भेजें</h3>
+            <p>वेबसाइट पर कोई भर्ती पोस्ट करने से पहले विभाग की आधिकारिक वेबसाइट से तारीख, योग्यता और लिंक सत्यापित करें।</p>
+            <p style="margin-top:12px"><a class="btn green" href="https://www.ncs.gov.in/" target="_blank" rel="noopener">National Career Service</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>SOFTLINE COMPUTER CENTER JAORA</strong></p>
+      <p>Job & Recruitment Information</p>
+      <p class="footer-small">यह वेबसाइट भर्ती जानकारी साझा करने के लिए है। हम सरकारी विभाग नहीं हैं और नौकरी की गारंटी नहीं देते। आवेदन से पहले आधिकारिक नोटिफिकेशन जाँचें।</p>
+      <p class="footer-small">© <span id="year"></span> SOFTLINE COMPUTER CENTER</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const filterButtons = document.querySelectorAll("[data-filter]");
+    const jobCards = document.querySelectorAll(".job-card");
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        filterButtons.forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        const filter = button.dataset.filter;
+        jobCards.forEach(card => {
+          card.hidden = !(filter === "all" || card.dataset.category === filter);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
